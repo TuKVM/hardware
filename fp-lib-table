@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCIexpress")(type "KiCad")(uri "${KIPRJMOD}/library/PCIexpress.pretty")(options "")(descr ""))
+  (lib (name "tukvm")(type "KiCad")(uri "${KIPRJMOD}/library/tukvm.pretty")(options "")(descr ""))
+)
