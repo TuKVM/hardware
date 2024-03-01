@@ -16,6 +16,7 @@ TuKVM is a hardware project that aims to provide a simple but feature rich IP KV
 * RS232 serial port with 2.54mm header for host system console redirection
 * SMBus on PCIe connector for Linux kernel to recongnize the KVM as an IPMI device, using [ipmi_ssif](https://github.com/torvalds/linux/blob/master/drivers/char/ipmi/ipmi_ssif.c) driver
 * (Optional) Isolated 802.3af PoE input with [DP1435-5V](https://item.szlcsc.com/6245786.html) controller module
+* (Optional) I2C connector for an OLED status display module.
   
 
 ## Status
