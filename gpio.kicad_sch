@@ -2889,12 +2889,229 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 49.53 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00225856-f36c-4060-89ac-10fe32ce6f76")
+		(symbol "tukvm:PinHeader_USB_2.0_9Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "tukvm:USB_9P_P2.54mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PinHeader_USB_2.0_9Pin_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 3.81)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 3.81)
+					(name "P2_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 2.54 0)
+					(length 3.81)
+					(name "P1_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 2.54 180)
+					(length 3.81)
+					(name "P2_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 0 0)
+					(length 3.81)
+					(name "P1_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 0 180)
+					(length 3.81)
+					(name "P2_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -2.54 0)
+					(length 3.81)
+					(name "P1_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 3.81)
+					(name "P2_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 3.81)
+					(name "P1_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 63.5 34.29)
@@ -2919,6 +3136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e013b07-338d-4225-acdc-71f48bdb7d78")
+	)
+	(junction
+		(at 41.91 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ca8d499-1814-4556-abed-e5aed37fccff")
 	)
 	(junction
 		(at 48.26 29.21)
@@ -2981,15 +3204,11 @@
 		(uuid "fa713026-ad56-4aa6-989e-427c60fce16c")
 	)
 	(no_connect
-		(at 62.23 69.85)
-		(uuid "1d8a6c85-3d3c-441e-adfd-5a8dd790fdaa")
-	)
-	(no_connect
 		(at 257.81 132.08)
 		(uuid "4ac4dc7f-9caf-4364-a0a8-91cc7788dc86")
 	)
 	(no_connect
-		(at 62.23 80.01)
+		(at 69.85 80.01)
 		(uuid "4b8d988f-e31e-42e8-8581-1c2fe5f098a4")
 	)
 	(no_connect
@@ -2997,7 +3216,7 @@
 		(uuid "511e94b7-e2f3-47f2-b735-e8a23ddec9ee")
 	)
 	(no_connect
-		(at 49.53 80.01)
+		(at 41.91 80.01)
 		(uuid "73d085a4-089e-40d2-9c06-6968143b59f7")
 	)
 	(no_connect
@@ -3009,7 +3228,7 @@
 		(uuid "9c6c06b2-025b-4a2c-a952-e96692c31eb8")
 	)
 	(no_connect
-		(at 49.53 74.93)
+		(at 41.91 74.93)
 		(uuid "a0a7d823-f1dc-4aba-88b3-79019e0e9fc8")
 	)
 	(no_connect
@@ -3017,7 +3236,7 @@
 		(uuid "af610f78-7ec9-4046-8ce1-9fad9a87c370")
 	)
 	(no_connect
-		(at 49.53 77.47)
+		(at 41.91 77.47)
 		(uuid "be709275-a18a-4043-8798-0f685ee4a5cf")
 	)
 	(wire
@@ -3232,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85) (xy 49.53 72.39)
+			(xy 41.91 69.85) (xy 41.91 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3612,7 +3831,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 74.93) (xy 62.23 74.93)
+			(xy 73.66 74.93) (xy 69.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3802,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 62.23 77.47)
+			(xy 73.66 77.47) (xy 69.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4659,7 +4878,7 @@
 	)
 	(hierarchical_label "OTG_D-"
 		(shape bidirectional)
-		(at 66.04 77.47 0)
+		(at 73.66 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4671,7 +4890,7 @@
 	)
 	(hierarchical_label "OTG_D+"
 		(shape bidirectional)
-		(at 66.04 74.93 0)
+		(at 73.66 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5011,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 62.23 72.39 90)
+		(at 69.85 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5019,7 +5238,7 @@
 		(dnp no)
 		(uuid "25782e19-ce74-457a-ab86-882e7594a4b9")
 		(property "Reference" "#PWR081"
-			(at 68.58 72.39 0)
+			(at 76.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5247,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 66.04 72.39 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 72.39 0)
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 72.39 0)
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 72.39 0)
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5587,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 49.53 72.39 270)
+		(at 41.91 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5376,7 +5595,7 @@
 		(dnp no)
 		(uuid "47bca054-b46a-48fb-8f3c-9416bbd43976")
 		(property "Reference" "#PWR079"
-			(at 43.18 72.39 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5604,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 45.72 72.39 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 72.39 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 72.39 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 72.39 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,8 +7006,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 54.61 74.93 0)
+		(lib_id "tukvm:PinHeader_USB_2.0_9Pin")
+		(at 55.88 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6797,7 +7016,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd14ec89-d3c7-4922-9516-a606bacbc7a8")
 		(property "Reference" "J6"
-			(at 55.88 64.4357 0)
+			(at 55.88 63.1655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7024,7 @@
 			)
 		)
 		(property "Value" "USB_9P"
-			(at 55.88 66.8599 0)
+			(at 55.88 65.5898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7032,7 @@
 			)
 		)
 		(property "Footprint" "tukvm:USB_9P_P2.54mm_Horizontal"
-			(at 54.61 74.93 0)
+			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 74.93 0)
+			(at 46.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 74.93 0)
+			(at 46.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,9 +7066,6 @@
 		)
 		(pin "8"
 			(uuid "902b713b-bef9-4be2-ad21-e91c381dfa1a")
-		)
-		(pin "2"
-			(uuid "11a749c5-c7c8-43e4-a893-a18eda53e734")
 		)
 		(pin "7"
 			(uuid "f736d5a5-f2f3-4d77-8466-686ac5cb7b12")
