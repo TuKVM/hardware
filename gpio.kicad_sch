@@ -3228,7 +3228,7 @@
 		(uuid "9c6c06b2-025b-4a2c-a952-e96692c31eb8")
 	)
 	(no_connect
-		(at 41.91 74.93)
+		(at 69.85 74.93)
 		(uuid "a0a7d823-f1dc-4aba-88b3-79019e0e9fc8")
 	)
 	(no_connect
@@ -3236,7 +3236,7 @@
 		(uuid "af610f78-7ec9-4046-8ce1-9fad9a87c370")
 	)
 	(no_connect
-		(at 41.91 77.47)
+		(at 69.85 77.47)
 		(uuid "be709275-a18a-4043-8798-0f685ee4a5cf")
 	)
 	(wire
@@ -3288,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "0b90fbd4-2e78-48e1-af79-4ef04ab20ef9")
+	)
+	(wire
+		(pts
+			(xy 38.1 77.47) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4b130b-08be-4ec7-a99a-56f708944391")
 	)
 	(wire
 		(pts
@@ -3791,6 +3801,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 74.93) (xy 41.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816b5edf-ced6-429c-a1c1-593ed44f5df8")
+	)
+	(wire
+		(pts
 			(xy 48.26 39.37) (xy 49.53 39.37)
 		)
 		(stroke
@@ -3828,16 +3848,6 @@
 			(type default)
 		)
 		(uuid "8b7b812b-6a2e-424e-acfd-4e1164cb24ab")
-	)
-	(wire
-		(pts
-			(xy 73.66 74.93) (xy 69.85 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9bedd8-6368-4e03-8820-fb559e607c10")
 	)
 	(wire
 		(pts
@@ -4018,16 +4028,6 @@
 			(type default)
 		)
 		(uuid "b0c99d71-fa86-4884-b1f3-53b54597bfcc")
-	)
-	(wire
-		(pts
-			(xy 73.66 77.47) (xy 69.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19b8b28-a998-441b-a37c-95cacff60603")
 	)
 	(wire
 		(pts
@@ -4876,29 +4876,29 @@
 		)
 		(uuid "62548fcb-4577-4832-bedc-cc0e2706df6b")
 	)
-	(hierarchical_label "OTG_D-"
-		(shape bidirectional)
-		(at 73.66 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72016a92-2883-418f-9917-bfdfdae9499c")
-	)
 	(hierarchical_label "OTG_D+"
 		(shape bidirectional)
-		(at 73.66 74.93 0)
+		(at 38.1 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9ddd7435-7698-4903-8a36-397c94627a03")
+		(uuid "76ccea36-e317-47f1-8a1c-20be9e88f369")
+	)
+	(hierarchical_label "OTG_D-"
+		(shape bidirectional)
+		(at 38.1 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87806f34-8222-4e24-8ae6-51245e62b868")
 	)
 	(hierarchical_label "M232_RXD"
 		(shape input)

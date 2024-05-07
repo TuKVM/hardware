@@ -8306,7 +8306,7 @@
 		(uuid "4c3584e8-6e07-4e96-a49a-b2068c407ef8")
 	)
 	(label "OTG_D-"
-		(at 57.15 114.3 0)
+		(at 57.15 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8383,7 +8383,7 @@
 		(uuid "5f136248-0d01-4eda-8293-198670631695")
 	)
 	(label "OTG_D+"
-		(at 57.15 111.76 0)
+		(at 57.15 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
